@@ -1,0 +1,2836 @@
+﻿{
+    "version": 2,
+    "title": "300 控件分层表单",
+    "groups": [
+        {
+            "id": "group-1",
+            "label": "分组 1",
+            "weight": 1,
+            "sections": [
+                {
+                    "id": "section-1-1",
+                    "label": "分区 1-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-1",
+                            "type": "text",
+                            "label": "字段 1 (text)",
+                            "required": false,
+                            "placeholder": "请输入 1"
+                        },
+                        {
+                            "id": "f-2",
+                            "type": "email",
+                            "label": "字段 2 (email)",
+                            "required": false,
+                            "placeholder": "请输入 2"
+                        },
+                        {
+                            "id": "f-3",
+                            "type": "password",
+                            "label": "字段 3 (password)",
+                            "required": false,
+                            "placeholder": "请输入 3"
+                        },
+                        {
+                            "id": "f-4",
+                            "type": "number",
+                            "label": "字段 4 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-5",
+                            "type": "tel",
+                            "label": "字段 5 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 5"
+                        },
+                        {
+                            "id": "f-6",
+                            "type": "url",
+                            "label": "字段 6 (url)",
+                            "required": false,
+                            "placeholder": "请输入 6"
+                        },
+                        {
+                            "id": "f-7",
+                            "type": "search",
+                            "label": "字段 7 (search)",
+                            "required": true,
+                            "placeholder": "请输入 7"
+                        },
+                        {
+                            "id": "f-8",
+                            "type": "textarea",
+                            "label": "字段 8 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-9",
+                            "type": "select",
+                            "label": "字段 9 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-9"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-9"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-9"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-10",
+                            "type": "checkbox",
+                            "label": "字段 10 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 10"
+                        },
+                        {
+                            "id": "f-11",
+                            "type": "radio",
+                            "label": "字段 11 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-11"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-11"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-11"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-12",
+                            "type": "range",
+                            "label": "字段 12 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-13",
+                            "type": "color",
+                            "label": "字段 13 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-14",
+                            "type": "date",
+                            "label": "字段 14 (date)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-15",
+                            "type": "time",
+                            "label": "字段 15 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-1-2",
+                    "label": "分区 1-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-16",
+                            "type": "text",
+                            "label": "字段 16 (text)",
+                            "required": false,
+                            "placeholder": "请输入 16"
+                        },
+                        {
+                            "id": "f-17",
+                            "type": "email",
+                            "label": "字段 17 (email)",
+                            "required": false,
+                            "placeholder": "请输入 17"
+                        },
+                        {
+                            "id": "f-18",
+                            "type": "password",
+                            "label": "字段 18 (password)",
+                            "required": false,
+                            "placeholder": "请输入 18"
+                        },
+                        {
+                            "id": "f-19",
+                            "type": "number",
+                            "label": "字段 19 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-20",
+                            "type": "tel",
+                            "label": "字段 20 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 20"
+                        },
+                        {
+                            "id": "f-21",
+                            "type": "url",
+                            "label": "字段 21 (url)",
+                            "required": true,
+                            "placeholder": "请输入 21"
+                        },
+                        {
+                            "id": "f-22",
+                            "type": "search",
+                            "label": "字段 22 (search)",
+                            "required": false,
+                            "placeholder": "请输入 22"
+                        },
+                        {
+                            "id": "f-23",
+                            "type": "textarea",
+                            "label": "字段 23 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-24",
+                            "type": "select",
+                            "label": "字段 24 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-24"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-24"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-24"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-25",
+                            "type": "checkbox",
+                            "label": "字段 25 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 25"
+                        },
+                        {
+                            "id": "f-26",
+                            "type": "radio",
+                            "label": "字段 26 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-26"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-26"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-26"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-27",
+                            "type": "range",
+                            "label": "字段 27 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-28",
+                            "type": "color",
+                            "label": "字段 28 (color)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-29",
+                            "type": "date",
+                            "label": "字段 29 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-30",
+                            "type": "time",
+                            "label": "字段 30 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-2",
+            "label": "分组 2",
+            "weight": 2,
+            "sections": [
+                {
+                    "id": "section-2-1",
+                    "label": "分区 2-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-31",
+                            "type": "text",
+                            "label": "字段 31 (text)",
+                            "required": false,
+                            "placeholder": "请输入 31"
+                        },
+                        {
+                            "id": "f-32",
+                            "type": "email",
+                            "label": "字段 32 (email)",
+                            "required": false,
+                            "placeholder": "请输入 32"
+                        },
+                        {
+                            "id": "f-33",
+                            "type": "password",
+                            "label": "字段 33 (password)",
+                            "required": false,
+                            "placeholder": "请输入 33"
+                        },
+                        {
+                            "id": "f-34",
+                            "type": "number",
+                            "label": "字段 34 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-35",
+                            "type": "tel",
+                            "label": "字段 35 (tel)",
+                            "required": true,
+                            "placeholder": "请输入 35"
+                        },
+                        {
+                            "id": "f-36",
+                            "type": "url",
+                            "label": "字段 36 (url)",
+                            "required": false,
+                            "placeholder": "请输入 36"
+                        },
+                        {
+                            "id": "f-37",
+                            "type": "search",
+                            "label": "字段 37 (search)",
+                            "required": false,
+                            "placeholder": "请输入 37"
+                        },
+                        {
+                            "id": "f-38",
+                            "type": "textarea",
+                            "label": "字段 38 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-39",
+                            "type": "select",
+                            "label": "字段 39 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-39"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-39"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-39"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-40",
+                            "type": "checkbox",
+                            "label": "字段 40 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 40"
+                        },
+                        {
+                            "id": "f-41",
+                            "type": "radio",
+                            "label": "字段 41 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-41"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-41"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-41"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-42",
+                            "type": "range",
+                            "label": "字段 42 (range)",
+                            "required": true,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-43",
+                            "type": "color",
+                            "label": "字段 43 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-44",
+                            "type": "date",
+                            "label": "字段 44 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-45",
+                            "type": "time",
+                            "label": "字段 45 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-2-2",
+                    "label": "分区 2-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-46",
+                            "type": "text",
+                            "label": "字段 46 (text)",
+                            "required": false,
+                            "placeholder": "请输入 46"
+                        },
+                        {
+                            "id": "f-47",
+                            "type": "email",
+                            "label": "字段 47 (email)",
+                            "required": false,
+                            "placeholder": "请输入 47"
+                        },
+                        {
+                            "id": "f-48",
+                            "type": "password",
+                            "label": "字段 48 (password)",
+                            "required": false,
+                            "placeholder": "请输入 48"
+                        },
+                        {
+                            "id": "f-49",
+                            "type": "number",
+                            "label": "字段 49 (number)",
+                            "required": true,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-50",
+                            "type": "tel",
+                            "label": "字段 50 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 50"
+                        },
+                        {
+                            "id": "f-51",
+                            "type": "url",
+                            "label": "字段 51 (url)",
+                            "required": false,
+                            "placeholder": "请输入 51"
+                        },
+                        {
+                            "id": "f-52",
+                            "type": "search",
+                            "label": "字段 52 (search)",
+                            "required": false,
+                            "placeholder": "请输入 52"
+                        },
+                        {
+                            "id": "f-53",
+                            "type": "textarea",
+                            "label": "字段 53 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-54",
+                            "type": "select",
+                            "label": "字段 54 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-54"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-54"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-54"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-55",
+                            "type": "checkbox",
+                            "label": "字段 55 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 55"
+                        },
+                        {
+                            "id": "f-56",
+                            "type": "radio",
+                            "label": "字段 56 (radio)",
+                            "required": true,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-56"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-56"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-56"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-57",
+                            "type": "range",
+                            "label": "字段 57 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-58",
+                            "type": "color",
+                            "label": "字段 58 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-59",
+                            "type": "date",
+                            "label": "字段 59 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-60",
+                            "type": "time",
+                            "label": "字段 60 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-3",
+            "label": "分组 3",
+            "weight": 3,
+            "sections": [
+                {
+                    "id": "section-3-1",
+                    "label": "分区 3-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-61",
+                            "type": "text",
+                            "label": "字段 61 (text)",
+                            "required": false,
+                            "placeholder": "请输入 61"
+                        },
+                        {
+                            "id": "f-62",
+                            "type": "email",
+                            "label": "字段 62 (email)",
+                            "required": false,
+                            "placeholder": "请输入 62"
+                        },
+                        {
+                            "id": "f-63",
+                            "type": "password",
+                            "label": "字段 63 (password)",
+                            "required": true,
+                            "placeholder": "请输入 63"
+                        },
+                        {
+                            "id": "f-64",
+                            "type": "number",
+                            "label": "字段 64 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-65",
+                            "type": "tel",
+                            "label": "字段 65 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 65"
+                        },
+                        {
+                            "id": "f-66",
+                            "type": "url",
+                            "label": "字段 66 (url)",
+                            "required": false,
+                            "placeholder": "请输入 66"
+                        },
+                        {
+                            "id": "f-67",
+                            "type": "search",
+                            "label": "字段 67 (search)",
+                            "required": false,
+                            "placeholder": "请输入 67"
+                        },
+                        {
+                            "id": "f-68",
+                            "type": "textarea",
+                            "label": "字段 68 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-69",
+                            "type": "select",
+                            "label": "字段 69 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-69"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-69"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-69"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-70",
+                            "type": "checkbox",
+                            "label": "字段 70 (checkbox)",
+                            "required": true,
+                            "checkboxLabel": "启用 70"
+                        },
+                        {
+                            "id": "f-71",
+                            "type": "radio",
+                            "label": "字段 71 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-71"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-71"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-71"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-72",
+                            "type": "range",
+                            "label": "字段 72 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-73",
+                            "type": "color",
+                            "label": "字段 73 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-74",
+                            "type": "date",
+                            "label": "字段 74 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-75",
+                            "type": "time",
+                            "label": "字段 75 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-3-2",
+                    "label": "分区 3-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-76",
+                            "type": "text",
+                            "label": "字段 76 (text)",
+                            "required": false,
+                            "placeholder": "请输入 76"
+                        },
+                        {
+                            "id": "f-77",
+                            "type": "email",
+                            "label": "字段 77 (email)",
+                            "required": true,
+                            "placeholder": "请输入 77"
+                        },
+                        {
+                            "id": "f-78",
+                            "type": "password",
+                            "label": "字段 78 (password)",
+                            "required": false,
+                            "placeholder": "请输入 78"
+                        },
+                        {
+                            "id": "f-79",
+                            "type": "number",
+                            "label": "字段 79 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-80",
+                            "type": "tel",
+                            "label": "字段 80 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 80"
+                        },
+                        {
+                            "id": "f-81",
+                            "type": "url",
+                            "label": "字段 81 (url)",
+                            "required": false,
+                            "placeholder": "请输入 81"
+                        },
+                        {
+                            "id": "f-82",
+                            "type": "search",
+                            "label": "字段 82 (search)",
+                            "required": false,
+                            "placeholder": "请输入 82"
+                        },
+                        {
+                            "id": "f-83",
+                            "type": "textarea",
+                            "label": "字段 83 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-84",
+                            "type": "select",
+                            "label": "字段 84 (select)",
+                            "required": true,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-84"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-84"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-84"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-85",
+                            "type": "checkbox",
+                            "label": "字段 85 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 85"
+                        },
+                        {
+                            "id": "f-86",
+                            "type": "radio",
+                            "label": "字段 86 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-86"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-86"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-86"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-87",
+                            "type": "range",
+                            "label": "字段 87 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-88",
+                            "type": "color",
+                            "label": "字段 88 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-89",
+                            "type": "date",
+                            "label": "字段 89 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-90",
+                            "type": "time",
+                            "label": "字段 90 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-4",
+            "label": "分组 4",
+            "weight": 4,
+            "sections": [
+                {
+                    "id": "section-4-1",
+                    "label": "分区 4-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-91",
+                            "type": "text",
+                            "label": "字段 91 (text)",
+                            "required": true,
+                            "placeholder": "请输入 91"
+                        },
+                        {
+                            "id": "f-92",
+                            "type": "email",
+                            "label": "字段 92 (email)",
+                            "required": false,
+                            "placeholder": "请输入 92"
+                        },
+                        {
+                            "id": "f-93",
+                            "type": "password",
+                            "label": "字段 93 (password)",
+                            "required": false,
+                            "placeholder": "请输入 93"
+                        },
+                        {
+                            "id": "f-94",
+                            "type": "number",
+                            "label": "字段 94 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-95",
+                            "type": "tel",
+                            "label": "字段 95 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 95"
+                        },
+                        {
+                            "id": "f-96",
+                            "type": "url",
+                            "label": "字段 96 (url)",
+                            "required": false,
+                            "placeholder": "请输入 96"
+                        },
+                        {
+                            "id": "f-97",
+                            "type": "search",
+                            "label": "字段 97 (search)",
+                            "required": false,
+                            "placeholder": "请输入 97"
+                        },
+                        {
+                            "id": "f-98",
+                            "type": "textarea",
+                            "label": "字段 98 (textarea)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-99",
+                            "type": "select",
+                            "label": "字段 99 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-99"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-99"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-99"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-100",
+                            "type": "checkbox",
+                            "label": "字段 100 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 100"
+                        },
+                        {
+                            "id": "f-101",
+                            "type": "radio",
+                            "label": "字段 101 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-101"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-101"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-101"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-102",
+                            "type": "range",
+                            "label": "字段 102 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-103",
+                            "type": "color",
+                            "label": "字段 103 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-104",
+                            "type": "date",
+                            "label": "字段 104 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-105",
+                            "type": "time",
+                            "label": "字段 105 (time)",
+                            "required": true
+                        }
+                    ]
+                },
+                {
+                    "id": "section-4-2",
+                    "label": "分区 4-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-106",
+                            "type": "text",
+                            "label": "字段 106 (text)",
+                            "required": false,
+                            "placeholder": "请输入 106"
+                        },
+                        {
+                            "id": "f-107",
+                            "type": "email",
+                            "label": "字段 107 (email)",
+                            "required": false,
+                            "placeholder": "请输入 107"
+                        },
+                        {
+                            "id": "f-108",
+                            "type": "password",
+                            "label": "字段 108 (password)",
+                            "required": false,
+                            "placeholder": "请输入 108"
+                        },
+                        {
+                            "id": "f-109",
+                            "type": "number",
+                            "label": "字段 109 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-110",
+                            "type": "tel",
+                            "label": "字段 110 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 110"
+                        },
+                        {
+                            "id": "f-111",
+                            "type": "url",
+                            "label": "字段 111 (url)",
+                            "required": false,
+                            "placeholder": "请输入 111"
+                        },
+                        {
+                            "id": "f-112",
+                            "type": "search",
+                            "label": "字段 112 (search)",
+                            "required": true,
+                            "placeholder": "请输入 112"
+                        },
+                        {
+                            "id": "f-113",
+                            "type": "textarea",
+                            "label": "字段 113 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-114",
+                            "type": "select",
+                            "label": "字段 114 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-114"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-114"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-114"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-115",
+                            "type": "checkbox",
+                            "label": "字段 115 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 115"
+                        },
+                        {
+                            "id": "f-116",
+                            "type": "radio",
+                            "label": "字段 116 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-116"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-116"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-116"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-117",
+                            "type": "range",
+                            "label": "字段 117 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-118",
+                            "type": "color",
+                            "label": "字段 118 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-119",
+                            "type": "date",
+                            "label": "字段 119 (date)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-120",
+                            "type": "time",
+                            "label": "字段 120 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-5",
+            "label": "分组 5",
+            "weight": 5,
+            "sections": [
+                {
+                    "id": "section-5-1",
+                    "label": "分区 5-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-121",
+                            "type": "text",
+                            "label": "字段 121 (text)",
+                            "required": false,
+                            "placeholder": "请输入 121"
+                        },
+                        {
+                            "id": "f-122",
+                            "type": "email",
+                            "label": "字段 122 (email)",
+                            "required": false,
+                            "placeholder": "请输入 122"
+                        },
+                        {
+                            "id": "f-123",
+                            "type": "password",
+                            "label": "字段 123 (password)",
+                            "required": false,
+                            "placeholder": "请输入 123"
+                        },
+                        {
+                            "id": "f-124",
+                            "type": "number",
+                            "label": "字段 124 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-125",
+                            "type": "tel",
+                            "label": "字段 125 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 125"
+                        },
+                        {
+                            "id": "f-126",
+                            "type": "url",
+                            "label": "字段 126 (url)",
+                            "required": true,
+                            "placeholder": "请输入 126"
+                        },
+                        {
+                            "id": "f-127",
+                            "type": "search",
+                            "label": "字段 127 (search)",
+                            "required": false,
+                            "placeholder": "请输入 127"
+                        },
+                        {
+                            "id": "f-128",
+                            "type": "textarea",
+                            "label": "字段 128 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-129",
+                            "type": "select",
+                            "label": "字段 129 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-129"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-129"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-129"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-130",
+                            "type": "checkbox",
+                            "label": "字段 130 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 130"
+                        },
+                        {
+                            "id": "f-131",
+                            "type": "radio",
+                            "label": "字段 131 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-131"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-131"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-131"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-132",
+                            "type": "range",
+                            "label": "字段 132 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-133",
+                            "type": "color",
+                            "label": "字段 133 (color)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-134",
+                            "type": "date",
+                            "label": "字段 134 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-135",
+                            "type": "time",
+                            "label": "字段 135 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-5-2",
+                    "label": "分区 5-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-136",
+                            "type": "text",
+                            "label": "字段 136 (text)",
+                            "required": false,
+                            "placeholder": "请输入 136"
+                        },
+                        {
+                            "id": "f-137",
+                            "type": "email",
+                            "label": "字段 137 (email)",
+                            "required": false,
+                            "placeholder": "请输入 137"
+                        },
+                        {
+                            "id": "f-138",
+                            "type": "password",
+                            "label": "字段 138 (password)",
+                            "required": false,
+                            "placeholder": "请输入 138"
+                        },
+                        {
+                            "id": "f-139",
+                            "type": "number",
+                            "label": "字段 139 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-140",
+                            "type": "tel",
+                            "label": "字段 140 (tel)",
+                            "required": true,
+                            "placeholder": "请输入 140"
+                        },
+                        {
+                            "id": "f-141",
+                            "type": "url",
+                            "label": "字段 141 (url)",
+                            "required": false,
+                            "placeholder": "请输入 141"
+                        },
+                        {
+                            "id": "f-142",
+                            "type": "search",
+                            "label": "字段 142 (search)",
+                            "required": false,
+                            "placeholder": "请输入 142"
+                        },
+                        {
+                            "id": "f-143",
+                            "type": "textarea",
+                            "label": "字段 143 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-144",
+                            "type": "select",
+                            "label": "字段 144 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-144"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-144"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-144"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-145",
+                            "type": "checkbox",
+                            "label": "字段 145 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 145"
+                        },
+                        {
+                            "id": "f-146",
+                            "type": "radio",
+                            "label": "字段 146 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-146"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-146"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-146"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-147",
+                            "type": "range",
+                            "label": "字段 147 (range)",
+                            "required": true,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-148",
+                            "type": "color",
+                            "label": "字段 148 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-149",
+                            "type": "date",
+                            "label": "字段 149 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-150",
+                            "type": "time",
+                            "label": "字段 150 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-6",
+            "label": "分组 6",
+            "weight": 6,
+            "sections": [
+                {
+                    "id": "section-6-1",
+                    "label": "分区 6-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-151",
+                            "type": "text",
+                            "label": "字段 151 (text)",
+                            "required": false,
+                            "placeholder": "请输入 151"
+                        },
+                        {
+                            "id": "f-152",
+                            "type": "email",
+                            "label": "字段 152 (email)",
+                            "required": false,
+                            "placeholder": "请输入 152"
+                        },
+                        {
+                            "id": "f-153",
+                            "type": "password",
+                            "label": "字段 153 (password)",
+                            "required": false,
+                            "placeholder": "请输入 153"
+                        },
+                        {
+                            "id": "f-154",
+                            "type": "number",
+                            "label": "字段 154 (number)",
+                            "required": true,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-155",
+                            "type": "tel",
+                            "label": "字段 155 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 155"
+                        },
+                        {
+                            "id": "f-156",
+                            "type": "url",
+                            "label": "字段 156 (url)",
+                            "required": false,
+                            "placeholder": "请输入 156"
+                        },
+                        {
+                            "id": "f-157",
+                            "type": "search",
+                            "label": "字段 157 (search)",
+                            "required": false,
+                            "placeholder": "请输入 157"
+                        },
+                        {
+                            "id": "f-158",
+                            "type": "textarea",
+                            "label": "字段 158 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-159",
+                            "type": "select",
+                            "label": "字段 159 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-159"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-159"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-159"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-160",
+                            "type": "checkbox",
+                            "label": "字段 160 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 160"
+                        },
+                        {
+                            "id": "f-161",
+                            "type": "radio",
+                            "label": "字段 161 (radio)",
+                            "required": true,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-161"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-161"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-161"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-162",
+                            "type": "range",
+                            "label": "字段 162 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-163",
+                            "type": "color",
+                            "label": "字段 163 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-164",
+                            "type": "date",
+                            "label": "字段 164 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-165",
+                            "type": "time",
+                            "label": "字段 165 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-6-2",
+                    "label": "分区 6-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-166",
+                            "type": "text",
+                            "label": "字段 166 (text)",
+                            "required": false,
+                            "placeholder": "请输入 166"
+                        },
+                        {
+                            "id": "f-167",
+                            "type": "email",
+                            "label": "字段 167 (email)",
+                            "required": false,
+                            "placeholder": "请输入 167"
+                        },
+                        {
+                            "id": "f-168",
+                            "type": "password",
+                            "label": "字段 168 (password)",
+                            "required": true,
+                            "placeholder": "请输入 168"
+                        },
+                        {
+                            "id": "f-169",
+                            "type": "number",
+                            "label": "字段 169 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-170",
+                            "type": "tel",
+                            "label": "字段 170 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 170"
+                        },
+                        {
+                            "id": "f-171",
+                            "type": "url",
+                            "label": "字段 171 (url)",
+                            "required": false,
+                            "placeholder": "请输入 171"
+                        },
+                        {
+                            "id": "f-172",
+                            "type": "search",
+                            "label": "字段 172 (search)",
+                            "required": false,
+                            "placeholder": "请输入 172"
+                        },
+                        {
+                            "id": "f-173",
+                            "type": "textarea",
+                            "label": "字段 173 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-174",
+                            "type": "select",
+                            "label": "字段 174 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-174"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-174"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-174"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-175",
+                            "type": "checkbox",
+                            "label": "字段 175 (checkbox)",
+                            "required": true,
+                            "checkboxLabel": "启用 175"
+                        },
+                        {
+                            "id": "f-176",
+                            "type": "radio",
+                            "label": "字段 176 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-176"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-176"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-176"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-177",
+                            "type": "range",
+                            "label": "字段 177 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-178",
+                            "type": "color",
+                            "label": "字段 178 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-179",
+                            "type": "date",
+                            "label": "字段 179 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-180",
+                            "type": "time",
+                            "label": "字段 180 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-7",
+            "label": "分组 7",
+            "weight": 7,
+            "sections": [
+                {
+                    "id": "section-7-1",
+                    "label": "分区 7-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-181",
+                            "type": "text",
+                            "label": "字段 181 (text)",
+                            "required": false,
+                            "placeholder": "请输入 181"
+                        },
+                        {
+                            "id": "f-182",
+                            "type": "email",
+                            "label": "字段 182 (email)",
+                            "required": true,
+                            "placeholder": "请输入 182"
+                        },
+                        {
+                            "id": "f-183",
+                            "type": "password",
+                            "label": "字段 183 (password)",
+                            "required": false,
+                            "placeholder": "请输入 183"
+                        },
+                        {
+                            "id": "f-184",
+                            "type": "number",
+                            "label": "字段 184 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-185",
+                            "type": "tel",
+                            "label": "字段 185 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 185"
+                        },
+                        {
+                            "id": "f-186",
+                            "type": "url",
+                            "label": "字段 186 (url)",
+                            "required": false,
+                            "placeholder": "请输入 186"
+                        },
+                        {
+                            "id": "f-187",
+                            "type": "search",
+                            "label": "字段 187 (search)",
+                            "required": false,
+                            "placeholder": "请输入 187"
+                        },
+                        {
+                            "id": "f-188",
+                            "type": "textarea",
+                            "label": "字段 188 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-189",
+                            "type": "select",
+                            "label": "字段 189 (select)",
+                            "required": true,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-189"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-189"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-189"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-190",
+                            "type": "checkbox",
+                            "label": "字段 190 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 190"
+                        },
+                        {
+                            "id": "f-191",
+                            "type": "radio",
+                            "label": "字段 191 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-191"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-191"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-191"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-192",
+                            "type": "range",
+                            "label": "字段 192 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-193",
+                            "type": "color",
+                            "label": "字段 193 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-194",
+                            "type": "date",
+                            "label": "字段 194 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-195",
+                            "type": "time",
+                            "label": "字段 195 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-7-2",
+                    "label": "分区 7-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-196",
+                            "type": "text",
+                            "label": "字段 196 (text)",
+                            "required": true,
+                            "placeholder": "请输入 196"
+                        },
+                        {
+                            "id": "f-197",
+                            "type": "email",
+                            "label": "字段 197 (email)",
+                            "required": false,
+                            "placeholder": "请输入 197"
+                        },
+                        {
+                            "id": "f-198",
+                            "type": "password",
+                            "label": "字段 198 (password)",
+                            "required": false,
+                            "placeholder": "请输入 198"
+                        },
+                        {
+                            "id": "f-199",
+                            "type": "number",
+                            "label": "字段 199 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-200",
+                            "type": "tel",
+                            "label": "字段 200 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 200"
+                        },
+                        {
+                            "id": "f-201",
+                            "type": "url",
+                            "label": "字段 201 (url)",
+                            "required": false,
+                            "placeholder": "请输入 201"
+                        },
+                        {
+                            "id": "f-202",
+                            "type": "search",
+                            "label": "字段 202 (search)",
+                            "required": false,
+                            "placeholder": "请输入 202"
+                        },
+                        {
+                            "id": "f-203",
+                            "type": "textarea",
+                            "label": "字段 203 (textarea)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-204",
+                            "type": "select",
+                            "label": "字段 204 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-204"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-204"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-204"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-205",
+                            "type": "checkbox",
+                            "label": "字段 205 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 205"
+                        },
+                        {
+                            "id": "f-206",
+                            "type": "radio",
+                            "label": "字段 206 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-206"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-206"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-206"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-207",
+                            "type": "range",
+                            "label": "字段 207 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-208",
+                            "type": "color",
+                            "label": "字段 208 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-209",
+                            "type": "date",
+                            "label": "字段 209 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-210",
+                            "type": "time",
+                            "label": "字段 210 (time)",
+                            "required": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-8",
+            "label": "分组 8",
+            "weight": 8,
+            "sections": [
+                {
+                    "id": "section-8-1",
+                    "label": "分区 8-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-211",
+                            "type": "text",
+                            "label": "字段 211 (text)",
+                            "required": false,
+                            "placeholder": "请输入 211"
+                        },
+                        {
+                            "id": "f-212",
+                            "type": "email",
+                            "label": "字段 212 (email)",
+                            "required": false,
+                            "placeholder": "请输入 212"
+                        },
+                        {
+                            "id": "f-213",
+                            "type": "password",
+                            "label": "字段 213 (password)",
+                            "required": false,
+                            "placeholder": "请输入 213"
+                        },
+                        {
+                            "id": "f-214",
+                            "type": "number",
+                            "label": "字段 214 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-215",
+                            "type": "tel",
+                            "label": "字段 215 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 215"
+                        },
+                        {
+                            "id": "f-216",
+                            "type": "url",
+                            "label": "字段 216 (url)",
+                            "required": false,
+                            "placeholder": "请输入 216"
+                        },
+                        {
+                            "id": "f-217",
+                            "type": "search",
+                            "label": "字段 217 (search)",
+                            "required": true,
+                            "placeholder": "请输入 217"
+                        },
+                        {
+                            "id": "f-218",
+                            "type": "textarea",
+                            "label": "字段 218 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-219",
+                            "type": "select",
+                            "label": "字段 219 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-219"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-219"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-219"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-220",
+                            "type": "checkbox",
+                            "label": "字段 220 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 220"
+                        },
+                        {
+                            "id": "f-221",
+                            "type": "radio",
+                            "label": "字段 221 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-221"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-221"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-221"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-222",
+                            "type": "range",
+                            "label": "字段 222 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-223",
+                            "type": "color",
+                            "label": "字段 223 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-224",
+                            "type": "date",
+                            "label": "字段 224 (date)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-225",
+                            "type": "time",
+                            "label": "字段 225 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-8-2",
+                    "label": "分区 8-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-226",
+                            "type": "text",
+                            "label": "字段 226 (text)",
+                            "required": false,
+                            "placeholder": "请输入 226"
+                        },
+                        {
+                            "id": "f-227",
+                            "type": "email",
+                            "label": "字段 227 (email)",
+                            "required": false,
+                            "placeholder": "请输入 227"
+                        },
+                        {
+                            "id": "f-228",
+                            "type": "password",
+                            "label": "字段 228 (password)",
+                            "required": false,
+                            "placeholder": "请输入 228"
+                        },
+                        {
+                            "id": "f-229",
+                            "type": "number",
+                            "label": "字段 229 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-230",
+                            "type": "tel",
+                            "label": "字段 230 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 230"
+                        },
+                        {
+                            "id": "f-231",
+                            "type": "url",
+                            "label": "字段 231 (url)",
+                            "required": true,
+                            "placeholder": "请输入 231"
+                        },
+                        {
+                            "id": "f-232",
+                            "type": "search",
+                            "label": "字段 232 (search)",
+                            "required": false,
+                            "placeholder": "请输入 232"
+                        },
+                        {
+                            "id": "f-233",
+                            "type": "textarea",
+                            "label": "字段 233 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-234",
+                            "type": "select",
+                            "label": "字段 234 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-234"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-234"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-234"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-235",
+                            "type": "checkbox",
+                            "label": "字段 235 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 235"
+                        },
+                        {
+                            "id": "f-236",
+                            "type": "radio",
+                            "label": "字段 236 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-236"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-236"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-236"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-237",
+                            "type": "range",
+                            "label": "字段 237 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-238",
+                            "type": "color",
+                            "label": "字段 238 (color)",
+                            "required": true
+                        },
+                        {
+                            "id": "f-239",
+                            "type": "date",
+                            "label": "字段 239 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-240",
+                            "type": "time",
+                            "label": "字段 240 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-9",
+            "label": "分组 9",
+            "weight": 9,
+            "sections": [
+                {
+                    "id": "section-9-1",
+                    "label": "分区 9-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-241",
+                            "type": "text",
+                            "label": "字段 241 (text)",
+                            "required": false,
+                            "placeholder": "请输入 241"
+                        },
+                        {
+                            "id": "f-242",
+                            "type": "email",
+                            "label": "字段 242 (email)",
+                            "required": false,
+                            "placeholder": "请输入 242"
+                        },
+                        {
+                            "id": "f-243",
+                            "type": "password",
+                            "label": "字段 243 (password)",
+                            "required": false,
+                            "placeholder": "请输入 243"
+                        },
+                        {
+                            "id": "f-244",
+                            "type": "number",
+                            "label": "字段 244 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-245",
+                            "type": "tel",
+                            "label": "字段 245 (tel)",
+                            "required": true,
+                            "placeholder": "请输入 245"
+                        },
+                        {
+                            "id": "f-246",
+                            "type": "url",
+                            "label": "字段 246 (url)",
+                            "required": false,
+                            "placeholder": "请输入 246"
+                        },
+                        {
+                            "id": "f-247",
+                            "type": "search",
+                            "label": "字段 247 (search)",
+                            "required": false,
+                            "placeholder": "请输入 247"
+                        },
+                        {
+                            "id": "f-248",
+                            "type": "textarea",
+                            "label": "字段 248 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-249",
+                            "type": "select",
+                            "label": "字段 249 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-249"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-249"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-249"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-250",
+                            "type": "checkbox",
+                            "label": "字段 250 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 250"
+                        },
+                        {
+                            "id": "f-251",
+                            "type": "radio",
+                            "label": "字段 251 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-251"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-251"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-251"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-252",
+                            "type": "range",
+                            "label": "字段 252 (range)",
+                            "required": true,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-253",
+                            "type": "color",
+                            "label": "字段 253 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-254",
+                            "type": "date",
+                            "label": "字段 254 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-255",
+                            "type": "time",
+                            "label": "字段 255 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-9-2",
+                    "label": "分区 9-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-256",
+                            "type": "text",
+                            "label": "字段 256 (text)",
+                            "required": false,
+                            "placeholder": "请输入 256"
+                        },
+                        {
+                            "id": "f-257",
+                            "type": "email",
+                            "label": "字段 257 (email)",
+                            "required": false,
+                            "placeholder": "请输入 257"
+                        },
+                        {
+                            "id": "f-258",
+                            "type": "password",
+                            "label": "字段 258 (password)",
+                            "required": false,
+                            "placeholder": "请输入 258"
+                        },
+                        {
+                            "id": "f-259",
+                            "type": "number",
+                            "label": "字段 259 (number)",
+                            "required": true,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-260",
+                            "type": "tel",
+                            "label": "字段 260 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 260"
+                        },
+                        {
+                            "id": "f-261",
+                            "type": "url",
+                            "label": "字段 261 (url)",
+                            "required": false,
+                            "placeholder": "请输入 261"
+                        },
+                        {
+                            "id": "f-262",
+                            "type": "search",
+                            "label": "字段 262 (search)",
+                            "required": false,
+                            "placeholder": "请输入 262"
+                        },
+                        {
+                            "id": "f-263",
+                            "type": "textarea",
+                            "label": "字段 263 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-264",
+                            "type": "select",
+                            "label": "字段 264 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-264"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-264"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-264"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-265",
+                            "type": "checkbox",
+                            "label": "字段 265 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 265"
+                        },
+                        {
+                            "id": "f-266",
+                            "type": "radio",
+                            "label": "字段 266 (radio)",
+                            "required": true,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-266"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-266"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-266"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-267",
+                            "type": "range",
+                            "label": "字段 267 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-268",
+                            "type": "color",
+                            "label": "字段 268 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-269",
+                            "type": "date",
+                            "label": "字段 269 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-270",
+                            "type": "time",
+                            "label": "字段 270 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "group-10",
+            "label": "分组 10",
+            "weight": 10,
+            "sections": [
+                {
+                    "id": "section-10-1",
+                    "label": "分区 10-1",
+                    "multiplier": 1,
+                    "fields": [
+                        {
+                            "id": "f-271",
+                            "type": "text",
+                            "label": "字段 271 (text)",
+                            "required": false,
+                            "placeholder": "请输入 271"
+                        },
+                        {
+                            "id": "f-272",
+                            "type": "email",
+                            "label": "字段 272 (email)",
+                            "required": false,
+                            "placeholder": "请输入 272"
+                        },
+                        {
+                            "id": "f-273",
+                            "type": "password",
+                            "label": "字段 273 (password)",
+                            "required": true,
+                            "placeholder": "请输入 273"
+                        },
+                        {
+                            "id": "f-274",
+                            "type": "number",
+                            "label": "字段 274 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-275",
+                            "type": "tel",
+                            "label": "字段 275 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 275"
+                        },
+                        {
+                            "id": "f-276",
+                            "type": "url",
+                            "label": "字段 276 (url)",
+                            "required": false,
+                            "placeholder": "请输入 276"
+                        },
+                        {
+                            "id": "f-277",
+                            "type": "search",
+                            "label": "字段 277 (search)",
+                            "required": false,
+                            "placeholder": "请输入 277"
+                        },
+                        {
+                            "id": "f-278",
+                            "type": "textarea",
+                            "label": "字段 278 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-279",
+                            "type": "select",
+                            "label": "字段 279 (select)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-279"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-279"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-279"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-280",
+                            "type": "checkbox",
+                            "label": "字段 280 (checkbox)",
+                            "required": true,
+                            "checkboxLabel": "启用 280"
+                        },
+                        {
+                            "id": "f-281",
+                            "type": "radio",
+                            "label": "字段 281 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-281"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-281"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-281"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-282",
+                            "type": "range",
+                            "label": "字段 282 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-283",
+                            "type": "color",
+                            "label": "字段 283 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-284",
+                            "type": "date",
+                            "label": "字段 284 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-285",
+                            "type": "time",
+                            "label": "字段 285 (time)",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "id": "section-10-2",
+                    "label": "分区 10-2",
+                    "multiplier": 2,
+                    "fields": [
+                        {
+                            "id": "f-286",
+                            "type": "text",
+                            "label": "字段 286 (text)",
+                            "required": false,
+                            "placeholder": "请输入 286"
+                        },
+                        {
+                            "id": "f-287",
+                            "type": "email",
+                            "label": "字段 287 (email)",
+                            "required": true,
+                            "placeholder": "请输入 287"
+                        },
+                        {
+                            "id": "f-288",
+                            "type": "password",
+                            "label": "字段 288 (password)",
+                            "required": false,
+                            "placeholder": "请输入 288"
+                        },
+                        {
+                            "id": "f-289",
+                            "type": "number",
+                            "label": "字段 289 (number)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-290",
+                            "type": "tel",
+                            "label": "字段 290 (tel)",
+                            "required": false,
+                            "placeholder": "请输入 290"
+                        },
+                        {
+                            "id": "f-291",
+                            "type": "url",
+                            "label": "字段 291 (url)",
+                            "required": false,
+                            "placeholder": "请输入 291"
+                        },
+                        {
+                            "id": "f-292",
+                            "type": "search",
+                            "label": "字段 292 (search)",
+                            "required": false,
+                            "placeholder": "请输入 292"
+                        },
+                        {
+                            "id": "f-293",
+                            "type": "textarea",
+                            "label": "字段 293 (textarea)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-294",
+                            "type": "select",
+                            "label": "字段 294 (select)",
+                            "required": true,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-294"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-294"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-294"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-295",
+                            "type": "checkbox",
+                            "label": "字段 295 (checkbox)",
+                            "required": false,
+                            "checkboxLabel": "启用 295"
+                        },
+                        {
+                            "id": "f-296",
+                            "type": "radio",
+                            "label": "字段 296 (radio)",
+                            "required": false,
+                            "options": [
+                                {
+                                    "value": "a",
+                                    "label": "选项 A-296"
+                                },
+                                {
+                                    "value": "b",
+                                    "label": "选项 B-296"
+                                },
+                                {
+                                    "value": "c",
+                                    "label": "选项 C-296"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f-297",
+                            "type": "range",
+                            "label": "字段 297 (range)",
+                            "required": false,
+                            "min": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        {
+                            "id": "f-298",
+                            "type": "color",
+                            "label": "字段 298 (color)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-299",
+                            "type": "date",
+                            "label": "字段 299 (date)",
+                            "required": false
+                        },
+                        {
+                            "id": "f-300",
+                            "type": "time",
+                            "label": "字段 300 (time)",
+                            "required": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
