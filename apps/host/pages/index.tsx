@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import React from "react";
+import Link from "next/link";
 
 const RemoteHome = dynamic(() => import("home/HomePage"), {
   ssr: false,
@@ -15,6 +16,14 @@ export default function IndexPage() {
           <p className="mt-2 text-sm leading-6 text-slate-600">
             下面区域通过 webpack5 Module Federation 从首页微前端加载：
           </p>
+          <div className="mt-3 flex flex-wrap gap-3">
+            <Link
+              href="/vitals"
+              className="inline-flex items-center rounded-md border border-slate-300 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 shadow-sm hover:bg-slate-50"
+            >
+              查看 Web Vitals 性能图表
+            </Link>
+          </div>
         </header>
 
         <section className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
