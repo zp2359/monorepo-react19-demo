@@ -2,12 +2,13 @@
 
 const require = createRequire(import.meta.url);
 const { NextFederationPlugin } = require("@module-federation/nextjs-mf");
+const enableFederation = process.env.ENABLE_MF !== "false";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   webpack: (config, { isServer }) => {
-    if (!isServer && process.env.NODE_ENV === "development") {
+    if (!isServer && enableFederation) {
       config.plugins.push(
         new NextFederationPlugin({
           name: "home",

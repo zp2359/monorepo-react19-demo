@@ -5,25 +5,27 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { NextFederationPlugin } = require("@module-federation/nextjs-mf");
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const enableFederation = process.env.ENABLE_MF !== "false";
+const homeRemoteBase = (process.env.HOME_REMOTE_URL ?? "http://localhost:3001").replace(/\/$/, "");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   webpack: (config, { isServer }) => {
-    if (isServer || process.env.NODE_ENV !== "development") {
+    if (isServer || !enableFederation) {
       config.resolve.alias = {
         ...config.resolve.alias,
         "home/HomePage": path.resolve(__dirname, "lib/remote-home-placeholder.tsx"),
       };
     }
 
-    if (!isServer && process.env.NODE_ENV === "development") {
+    if (!isServer && enableFederation) {
       config.plugins.push(
         new NextFederationPlugin({
           name: "host",
           filename: "static/chunks/remoteEntry.js",
           remotes: {
-            home: "home@http://localhost:3001/_next/static/chunks/remoteEntry.js",
+            home: `home@${homeRemoteBase}/_next/static/chunks/remoteEntry.js`,
           },
           shared: {
             react: {
