@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 const { NextFederationPlugin } = require("@module-federation/nextjs-mf");
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const enableFederation = process.env.ENABLE_MF !== "false";
-const homeRemoteBase = (process.env.HOME_REMOTE_URL ?? "http://localhost:3001").replace(/\/$/, "");
+const homeRemoteBase = (process.env.HOME_REMOTE_URL ?? "https://monorepo-react19-demo-home.vercel.app").replace(/\/$/, "");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
